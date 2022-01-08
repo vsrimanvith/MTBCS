@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mtbcs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.example.mtbcs.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mtbcs.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Reg"
+            android:label="@string/title_activity_reg" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.HomeAdmin"
+            android:label="@string/title_activity_home_admin" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.HomeSuperuser"
+            android:label="@string/title_activity_home_superuser" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.HomeDeveloper"
+            android:label="@string/title_activity_home_developer" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.HomeTester"
+            android:label="@string/title_activity_home_tester" >
+        </activity>
+        <activity android:name="com.example.mtbcs.Login" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Taddbug"
+            android:label="@string/title_activity_taddbug" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Tbugstatus"
+            android:label="@string/title_activity_tbugstatus" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Aviewreg"
+            android:label="@string/title_activity_aviewreg" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Aviewbugs"
+            android:label="@string/title_activity_aviewbugs" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Aasignbug"
+            android:label="@string/title_activity_aasignbug" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Drepbug"
+            android:label="@string/title_activity_drepbug" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Dprojectview"
+            android:label="@string/title_activity_dprojectview" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Dprofile"
+            android:label="@string/title_activity_dprofile" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Dasignbug"
+            android:label="@string/title_activity_dasignbug" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Saddproject"
+            android:label="@string/title_activity_saddproject" >
+        </activity>
+        <activity
+            android:name="com.example.mtbcs.Sbugview"
+            android:label="@string/title_activity_sbugview" >
+        </activity>
+    </application>
+
+</manifest>

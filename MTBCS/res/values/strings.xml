@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MTBCS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_reg">Reg</string>
+    <string name="title_activity_home_admin">HomeAdmin</string>
+    <string name="title_activity_home_superuser">HomeSuperuser</string>
+    <string name="title_activity_home_developer">HomeDeveloper</string>
+    <string name="title_activity_home_tester">HomeTester</string>
+    <string name="title_activity_taddbug">Taddbug</string>
+    <string name="title_activity_tbugstatus">Tbugstatus</string>
+    <string name="title_activity_aviewreg">Aviewreg</string>
+    <string name="title_activity_aviewbugs">Aviewbugs</string>
+    <string name="title_activity_aasignbug">Aasignbug</string>
+    <string name="title_activity_drepbug">Drepbug</string>
+    <string name="title_activity_dprojectview">Dprojectview</string>
+    <string name="title_activity_dprofile">Dprofile</string>
+    <string name="title_activity_dasignbug">Dasignbug</string>
+    <string name="title_activity_saddproject">Saddproject</string>
+    <string name="title_activity_sbugview">Sbugview</string>
+
+</resources>

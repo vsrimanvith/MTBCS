@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string-array name="week">
+     <item >Super User</item>
+     <item >Developer</item>
+     <item >Tester</item>
+ </string-array>   
+    
+</resources>
